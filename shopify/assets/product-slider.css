@@ -1,0 +1,47 @@
+.slider {
+    margin: auto;
+    width: 90%;
+}
+
+.carousel-heading {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  margin: 20px;
+  overflow: hidden;
+}
+
+.carousel-cell img {
+  display: block;
+  object-fit: cover;
+    height: 100%;
+    width: 300px;
+}
+
+@media screen and ( min-width: 768px ) {
+  .carousel-cell img {
+    height: 400px;
+  }
+}
+
+.sale-badge {
+    position: absolute;
+    bottom: 85px;
+    left: 10px;
+}
+
+.quick-add-button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

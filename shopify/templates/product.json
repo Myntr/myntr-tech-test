@@ -111,6 +111,13 @@
         "padding_bottom": 12
       }
     },
+    "90dd9ba1-e3e3-4388-ad3e-fe0421600a76": {
+      "type": "upsell-product-slider",
+      "settings": {
+        "collection_heading": "Upsell Sliders Are Cool",
+        "collection_object": "upsell"
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -209,6 +216,7 @@
   },
   "order": [
     "main",
+    "90dd9ba1-e3e3-4388-ad3e-fe0421600a76",
     "image-with-text",
     "multicolumn",
     "product-recommendations"

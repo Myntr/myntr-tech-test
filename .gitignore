@@ -5,7 +5,6 @@ vcs.xml
 .vscode/*
 *.log
 config.yml
-shopify/config/settings_data.json
 **/.DS_Store
 shopify/assets/*myntr-bundle*
 /yarn.lock

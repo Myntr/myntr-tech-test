@@ -16,18 +16,9 @@ This Shopify theme is built using [Theme Lab](https://github.com/uicrooks/shopif
 4. Install with command: `npm install`
 5. Login to the Shopify store with command: `npm run login`
 6. Create your development theme and start your dev server using command: `npm run start`
-7. Run command `npm run shopify:settings:init` to copy the Theme Settings from the live theme to your development theme.
-
-### Shopify `settings_data.json` Scripts
-Most of the scripts are straight from Theme Lab. Below are 2 scripts we've added to make updating theme settings across themes easier.
-| Task | Description |
-| ---- | ----------- |
-| `shopify:settings:init` | downloads the settings_data.json file from the live theme and pushes it to your dev theme |
-| `shopify:settings:update` | Prompts you to choose a theme from which to download the settings_data.json file, then, after downloading it, prompts you to select a theme to push it to |
-
 ### Deployment
 1. Build and deploy to a *new* theme with command `npm run deploy:new`.
-2. Build and deploy to an *existing* theme (eg. the QA theme) with command `npm run deploy`.
+2. Build and deploy to an *existing* theme with command `npm run deploy`.
 
 ## 2. Test Instructions ##
 
@@ -63,13 +54,15 @@ Each slide in the slider must show:
 3. Product price
 
 ## Test Submission ##
-1. Once you have completed development, push your branch to the remote repo.
-2. Deploy your code to a Theme Preview using the `npm run deploy` command.
+1. Create a branch from `main`
+2. Once you have completed development, push all commits to your branch on the remote repo.
+2. Deploy your code to a Theme Preview using the `npm run deploy:new` command.
+3. Include your last name on the theme preview and a date.
 3. Email `kyle@myntr.io` with your branch and theme preview.
 
 ## Tips ##
 1. You can view the starter section file `upsell-product-slider--starter.liquid` to help develop the initial section. The starter file contains barebones liquid code.
-2. Recommend using Flickity, Slick, Swiper.js, or any preferred carousel library to build the slider.
+2. Recommend using the Theme's slider logic, Flickity, Slick, Swiper.js, or any preferred carousel library to build the slider.
 3. View the [Shopify product object docs](https://shopify.dev/api/liquid/objects/product) to see the properties of a product.
 
 
