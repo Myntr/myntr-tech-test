@@ -9,13 +9,14 @@
 
 This Shopify theme is built using [Theme Lab](https://github.com/uicrooks/shopify-theme-lab).  Shopify Theme Lab is a customizable modular development environment for Shopify theme development. It is built on top of the Shopify CLI and extends it with additional workflow and building capabilities. By default it's bundled with Vue.js and Tailwind CSS.
 
-### Initial Setup
+### Setup
 1. If you haven't already installed the Shopify CLI on your local machine, follow the instructions [here](https://shopify.dev/themes/tools/cli#installation).
 2. Clone the project repo locally.
 3. Run command `nvm use` or use at least Node v14.17.0
 4. Install with command: `npm install`
 5. Login to the Shopify store with command: `npm run login`
 6. Create your development theme and start your dev server using command: `npm run start`
+
 ### Deployment
 1. Build and deploy to a *new* theme with command `npm run deploy:new`.
 2. Build and deploy to an *existing* theme with command `npm run deploy`.
