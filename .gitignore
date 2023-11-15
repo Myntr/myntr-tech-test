@@ -1,0 +1,14 @@
+node_modules/
+package-lock.json
+vcs.xml
+.DS_Store
+.vscode/*
+*.log
+config.yml
+shopify/config/settings_data.json
+**/.DS_Store
+shopify/assets/*myntr-bundle*
+/yarn.lock
+shopify/oldfile
+shopify/tmpfile
+yarn.lock
