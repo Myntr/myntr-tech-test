@@ -43,7 +43,7 @@ Add `{% schema $}` to this new section that includes 3 settings:
 
 There is an existing collection titled "Upsell". You can see the collection [here](https://myntr-dev.myshopify.com/admin/collections/434370806043). This collection contains 6 products, and you want to display these products within a slider.
 
-Add the `upsell-product-slider.liquid` section to the `product.json` template. You can use the Customizer to achieve this. Display the section below the existing `Product information` section.
+Add the `upsell-product-slider.liquid` section to the `product.json` template. Display the section below the existing `Product information` section.
 
 After the section is created and added to the product template, you can begin with the more complex slider development. [View an example of a product slider here](https://codepen.io/marufalbashir/pen/LyaQdq). You can choose to show either 1 slide or multiple slides at once. The example provided shows multiple slides on desktop, and only 1 slide on mobile.
 
@@ -81,5 +81,3 @@ Create a button on each slide that, when clicked, adds the product to the cart.
 ### Product Badge
 
 One of the products has a `badge: Sale` tag. Try to use that tag in order to display a badge on the product in the slider. You can read more about product tags [here](https://shopify.dev/api/liquid/objects/product#product-tags). You can see a visual example of the Sale badge by visiting this page: https://myntr-dev.myshopify.com/collections/upsell.
-
-## Troubleshoot ##
