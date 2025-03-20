@@ -1,0 +1,68 @@
+# a generic environment of the client store, for general purpose commands.
+# when this is used in reference of push and pull, you will select a theme from the store theme list
+[environments.store]
+store = "myntr-dev"
+password = "shptka_cc34d2504211995b99aaf2750900ed95"
+path = "shopify"
+
+# a generic environment that only has access to settings_data.json from a selected theme from the store theme list
+# when this is used in reference of push and pull, you will select a theme from the store theme list
+[environments.store-config]
+store = "myntr-dev"
+password = "shptka_cc34d2504211995b99aaf2750900ed95"
+path = "shopify"
+only = "config/settings_data.json"
+
+# a generic environment that only has access the JSON data of a selected theme. Helpful for transferring content between themes.
+# when this is used in reference of push and pull, you will select a theme from the store theme list
+[environments.store-content]
+store = "myntr-dev"
+password = "shptka_cc34d2504211995b99aaf2750900ed95"
+path = "shopify"
+only = ["templates/*","config/*","sections/footer-group.json","sections/header-group.json","sections/overlay-group.json"]
+
+# this environment will always reference the live theme
+[environments.live]
+store = "myntr-dev"
+password = "shptka_cc34d2504211995b99aaf2750900ed95"
+live = true
+path = "shopify"
+
+# this environment will only have access to config/settings_data.json of the published theme
+[environments.live-config]
+store = "myntr-dev"
+password = "shptka_cc34d2504211995b99aaf2750900ed95"
+live = true
+path = "shopify"
+only = "config/settings_data.json"
+
+# this environment will only have access to the JSON content files of the publishsed theme
+[environments.live-content]
+store = "myntr-dev"
+password = "shptka_cc34d2504211995b99aaf2750900ed95"
+live = true
+path = "shopify"
+only = ["templates/*","config/*","sections/footer-group.json","sections/header-group.json","sections/overlay-group.json"]
+
+# this environment will always reference your generated development theme
+[environments.development]
+store = "myntr-dev"
+password = "shptka_cc34d2504211995b99aaf2750900ed95"
+development = true
+path = "shopify"
+
+# this environment will only have access to config/settings_data.json of the generated development theme
+[environments.development-config]
+store = "myntr-dev"
+password = "shptka_cc34d2504211995b99aaf2750900ed95"
+development = true
+path = "shopify"
+only = "config/settings_data.json"
+
+# this environment will only have access to the JSON content files of the generated development theme
+[environments.development-content]
+store = "myntr-dev"
+password = "shptka_cc34d2504211995b99aaf2750900ed95"
+development = true
+path = "shopify"
+only = ["templates/*","config/*","sections/footer-group.json","sections/header-group.json","sections/overlay-group.json"]

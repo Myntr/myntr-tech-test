@@ -1,7 +1,0 @@
-development:
-  password: PASSWORD_HERE
-  theme_id: THEME_ID_HERE
-  store: {STORE_NAME}.myshopify.com
-  directory: ./shopify/
-  ignore_files:
-    - config/settings_data.json

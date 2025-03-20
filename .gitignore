@@ -11,3 +11,4 @@ shopify/assets/*myntr-bundle*
 shopify/oldfile
 shopify/tmpfile
 yarn.lock
+.shopify

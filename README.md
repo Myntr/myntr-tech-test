@@ -1,27 +1,28 @@
-
 ![Myntr](https://imgur.com/laewQrV.png)
 
 # Myntr Technical Test
 
-## 1. Repo Setup ##
-
-### Theme Overview
-
 This Shopify theme is built using [Theme Lab](https://github.com/uicrooks/shopify-theme-lab).  Shopify Theme Lab is a customizable modular development environment for Shopify theme development. It is built on top of the Shopify CLI and extends it with additional workflow and building capabilities. By default it's bundled with Vue.js and Tailwind CSS.
 
-### Setup
+## Requirements ##
+- Node.js v14.17+
+- Ruby v2.7+ (required for Shopify CLI)
+- Shopify CLI v3+
+
+## Initial Setup ##
 1. If you haven't already installed the Shopify CLI on your local machine, follow the instructions [here](https://shopify.dev/themes/tools/cli#installation).
 2. Clone the project repo locally.
-3. Run command `nvm use` or use at least Node v14.17.0
+3. Run command `nvm use`
 4. Install with command: `npm install`
-5. Login to the Shopify store with command: `npm run login`
+5. Ensure a `shopify.theme.toml` file is established
 6. Create your development theme and start your dev server using command: `npm run start`
+7. Run command `npm run config:init` to copy the Theme Settings from the live theme to your development theme.
 
-### Deployment
+## Deployment ##
 1. Build and deploy to a *new* theme with command `npm run deploy:new`.
-2. Build and deploy to an *existing* theme with command `npm run deploy`.
+2. Build and deploy to an *existing* theme (eg. the branch QA theme) with command `npm run deploy`.
 
-## 2. Test Instructions ##
+# Test Instructions
 
 ## Goal ##
 You will be building a new product template section that includes schema to output a heading and a product collection slider.

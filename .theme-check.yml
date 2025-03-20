@@ -13,6 +13,7 @@ include_categories: []
 exclude_categories: []
 
 ignore:
+  - '*.code-workspace'
 
 ConvertIncludeToRender:
   enabled: true
