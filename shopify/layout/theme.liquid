@@ -296,6 +296,14 @@
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+
+    {%- comment -%} Myntr Bundle CSS {%- endcomment -%}
+    {{- 'myntr-bundle.css' | asset_url | stylesheet_tag: preload: true -}}
+
+    {%- comment -%} Myntr Bundle JS {%- endcomment -%}
+    {{ 'myntr-bundle.js' | asset_url | preload_tag: as: 'script' }}
+    <script src="{{ 'myntr-bundle.js' | asset_url }}" defer></script>
+
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">

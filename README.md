@@ -62,8 +62,7 @@ Each slide in the slider must show:
 3. Email `kyle@myntr.io` with your branch and theme preview.
 
 ## Tips ##
-1. You can view the starter section file `upsell-product-slider--starter.liquid` to help develop the initial section. The starter file contains barebones liquid code.
-2. Recommend using the Theme's slider logic, Flickity, Slick, Swiper.js, or any preferred carousel library to build the slider.
+1. We recommend using the Theme's slider logic, Flickity, Slick, Swiper.js, or any preferred carousel library to build the slider.
 3. View the [Shopify product object docs](https://shopify.dev/api/liquid/objects/product) to see the properties of a product.
 
 
